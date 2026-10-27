@@ -1,0 +1,11 @@
+command: [
+  "streamlit",
+  "run",
+  "app.py",
+  "--server.fileWatcherType=none",
+  "--server.headless=true",
+  "--browser.gatherUsageStats=false"
+]
+env:
+  - name: DATABRICKS_WAREHOUSE_ID
+    value: "f4f9e6f6b72f28c9"
